@@ -25,7 +25,7 @@ header {
 }
 .info {
   text-align: right;
-  width: 100px;
+  width: 40%;
   position: relative;
   cursor: pointer;
 }
@@ -47,18 +47,35 @@ header {
 }
 .object-1 {
   height: 500px;
+  background-image: url("./img/IMG_8607.JPEG");
+  background-size: contain;
 }
 .object-2 {
   height: 700px;
   width: 43%;
+  background-image: url("./img/IMG_8620.JPEG");
+  background-size: contain;
 }
 .object-3 {
   height: 400px;
   width: 40%;
+  background-image: url("./img/IMG_8624.JPEG");
+  background-size: contain;
 }
 .object-4 {
   height: 500px;
+  background-image: url("./img/IMG_8607.JPEG");
+  background-size: contain;
 }
 .visible {
   display: block;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+  .object {
+    width: 100%;
+  }
 }
