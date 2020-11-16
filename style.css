@@ -41,10 +41,12 @@ header {
   font-family: serif;
 }
 .object {
+  display: block;
   width: 48%;
-  height: auto;
-  background-color: rgb(34, 23, 15);
   margin-bottom: 50px;
+}
+img{
+  width: 100%;
 }
 .content {
   width: 100%;
@@ -53,7 +55,7 @@ header {
   flex-wrap: wrap;
 }
 
-.object-2 {
+/* .object-2 {
   width: auto;
   height: 900px;
 
@@ -61,7 +63,7 @@ header {
 .object-3 {
   width: auto;
   height: 700px;
-}
+} */
 
 .visible {
   display: block;
