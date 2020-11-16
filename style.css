@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+.home-link {
+  text-decoration: none;
+  color: black;
+}
 body {
   margin: 0;
   font-size: 28px;
@@ -32,7 +36,7 @@ header {
 }
 .info {
   text-align: right;
-  width:50%;
+  width: 50%;
   position: relative;
   cursor: pointer;
 }
@@ -45,8 +49,8 @@ header {
   width: 48%;
   margin-bottom: 50px;
 }
-img{
-  width: 100%;
+img {
+  width: 90%;
 }
 .content {
   width: 100%;
@@ -54,7 +58,10 @@ img{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
+.obj-1,
+.obj-2 {
+  border: 2px solid blue;
+}
 /* .object-2 {
   width: auto;
   height: 900px;
@@ -68,29 +75,25 @@ img{
 .visible {
   display: block;
 }
-.object-wrapper{
+.object-wrapper {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   margin-bottom: 100px;
 }
-.big-img{
-  width: 45%;
+.big-img {
+  width: 70%;
 }
-.big-img img{
-  width: 95%;
 
-}
-.small-imgs{
+.small-imgs {
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 45%;
 }
-.small-imgs img{
-  width: 45%;
-}
-.information{
+
+.information {
   font-size: 18px;
   font-family: sans-serif;
   font-style: normal;
@@ -102,5 +105,11 @@ img{
   }
   .object {
     width: 100%;
+  }
+  .information {
+    font-size: 14px;
+  }
+  .object-wrapper {
+    margin-bottom: 40px;
   }
 }
