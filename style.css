@@ -49,28 +49,13 @@ header {
   width: 48%;
   margin-bottom: 50px;
 }
-img {
-  width: 90%;
-}
+
 .content {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.obj-1,
-.obj-2 {
-  border: 2px solid blue;
-}
-/* .object-2 {
-  width: auto;
-  height: 900px;
-
-}
-.object-3 {
-  width: auto;
-  height: 700px;
-} */
 
 .visible {
   display: block;
@@ -78,25 +63,56 @@ img {
 .object-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: auto;
-  margin-bottom: 100px;
+  width: 1200px;
+  height: 800px;
+  margin-bottom: 70px;
 }
 .big-img {
-  width: 70%;
+  width: 50%;
+}
+.big-img img {
+  height: 100%;
+  width: auto;
 }
 
 .small-imgs {
-  width: 45%;
+  height: 800px;
+  width: 44%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  text-align: right;
+  flex-wrap: wrap;
 }
+.smallest{
+  display: flex;
+}
+.obj {
+  width: 48%;
+  overflow: hidden;
+}
+.obj img{
+  height: auto;
+  width: 100%;
+}
+.first,
+.second{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+.second{
+  align-items: flex-end;
+}
+/* .smallest .obj{
 
+} */
 .information {
   font-size: 18px;
   font-family: sans-serif;
   font-style: normal;
+}
+.info-btn{
+margin-bottom: 20px;
 }
 
 @media (max-width: 500px) {
@@ -111,5 +127,28 @@ img {
   }
   .object-wrapper {
     margin-bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
   }
+  .big-img,
+  .big-img img  {
+    width: 100%;
+}
+.info-btn{
+  margin-bottom: 10px;
+  }
+header{
+  margin-bottom: 70px;
+}
+.small-imgs{
+  width: 100%;
+  height: auto;
+}
+.obj{
+  width: 49%;
+}
+.object img{
+  width: 100%;
+}
 }
