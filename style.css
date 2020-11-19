@@ -9,12 +9,31 @@
   text-decoration: none;
   color: black;
 }
+.home {
+  margin-bottom: 80px;
+}
+.objects-wrapper {
+  margin-bottom: 80px;
+}
+.objects-wrapper a {
+  color: #000000;
+  text-decoration: none;
+}
+.objects-wrapper li {
+  margin-bottom: 5px;
+}
+.objects-wrapper a:hover {
+  text-decoration: underline;
+}
+.active {
+  font-weight: bold;
+}
 body {
   margin: 0;
-  font-size: 28px;
   padding: 50px 70px;
-  font-style: italic;
-  font-family: "Gotham Pro Light Italic";
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
 }
 ul,
 li {
@@ -23,20 +42,19 @@ li {
   list-style: none;
 }
 header {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 100px;
 }
 .contacts {
   font-style: normal;
-  font-size: 18px;
   display: none;
-  position: absolute;
   right: 0;
 }
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .info {
-  text-align: right;
-  width: 50%;
   position: relative;
   cursor: pointer;
 }
@@ -50,71 +68,33 @@ header {
   margin-bottom: 50px;
 }
 
-.content {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
 .visible {
   display: block;
 }
 .object-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  height: 800px;
-  margin-bottom: 70px;
-}
-.big-img {
-  width: 50%;
-}
-.big-img img {
-  height: 100%;
-  width: auto;
-}
-
-.small-imgs {
-  height: 800px;
-  width: 44%;
-  display: flex;
-  justify-content: space-between;
-  text-align: right;
-  flex-wrap: wrap;
-}
-.smallest{
+  width: 80%;
   display: flex;
 }
-.obj {
-  width: 48%;
-  overflow: hidden;
-}
-.obj img{
-  height: auto;
+.imgs-wrapper {
   width: 100%;
 }
-.first,
-.second{
-  display: flex;
-  justify-content: space-between;
-  height: 50%;
+.imgs-wrapper img {
+  margin-bottom: 20px;
 }
-.second{
-  align-items: flex-end;
+.object-wrapper img {
+  width: 70%;
 }
-/* .smallest .obj{
 
-} */
 .information {
-  font-size: 18px;
   font-family: sans-serif;
   font-style: normal;
 }
-.info-btn{
-margin-bottom: 20px;
+.info-btn {
+  margin-bottom: 20px;
 }
-
+.contacts li {
+  margin-bottom: 5px;
+}
 @media (max-width: 500px) {
   body {
     padding: 10px;
@@ -123,32 +103,29 @@ margin-bottom: 20px;
     width: 100%;
   }
   .information {
-    font-size: 14px;
+    text-align: right;
   }
   .object-wrapper {
     margin-bottom: 40px;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     height: auto;
   }
-  .big-img,
-  .big-img img  {
-    width: 100%;
-}
-.info-btn{
-  margin-bottom: 10px;
+
+  .info-btn {
+    margin-bottom: 10px;
   }
-header{
-  margin-bottom: 70px;
-}
-.small-imgs{
-  width: 100%;
-  height: auto;
-}
-.obj{
-  width: 49%;
-}
-.object img{
-  width: 100%;
-}
+  .contacts {
+    font-size: 10px;
+  }
+
+  header {
+    margin-bottom: 70px;
+  }
+  .object-wrapper img {
+    width: 90%;
+  }
+  .imgs-wrapper div {
+    text-align: right;
+  }
 }
