@@ -95,7 +95,28 @@ header {
 .contacts li {
   margin-bottom: 5px;
 }
+.main-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.video-wrapper{
+  width: 70%;
+}
+iframe{
+  width: 100%;
+  height: 650px;
+}
 @media (max-width: 500px) {
+  .main-wrapper{
+    flex-direction: column;
+  }
+  .video-wrapper {
+    width: 100%;
+}
+iframe{
+  width: 420px;
+  height: 300px;
+}
   body {
     padding: 10px;
   }
@@ -127,5 +148,8 @@ header {
   }
   .imgs-wrapper div {
     text-align: right;
+  }
+  nav{
+    margin-bottom: 50px;
   }
 }
