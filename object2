@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>xivmcmxxiv</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <nav>
+      <!-- <div class="home">xivmcmxxiv</div> -->
+      <ul class="objects-wrapper">
+        <a href="/object-1"><li class="active">2m</li></a>
+        <a href=""><li>super indian haze</li></a>
+        <a href=""><li>2m2</li></a>
+        <a href=""><li>glazed</li></a>
+        <a href=""><li>available</li></a>
+        <a href=""><li>clay</li></a>
+      </ul>
+      <div class="info">
+        <div class="info-btn">contact</div>
+        <ul class="contacts">
+          <a href="tel:+79778030688"><li>+7(977)803-06-88</li></a>
+          <a href=""><li>facebook</li></a>
+          <a href="https://www.instagram.com/xivmcmxxiv/" target="_blank"
+            ><li>instagram</li></a
+          >
+        </ul>
+      </div>
+     
+    </nav>
+    <div class="btn-back"></div>
+    <div class="object-wrapper">
+      <div class="imgs-wrapper">
+        <div><img
+          src="../img/IMG_8607.JPEG"
+          alt=""/></div>
+          <div><img src="../img/IMG_0076.JPEG" alt="" /></div>
+          <div><img src="../img/IMG_0078.JPEG" alt="" /></div>
+          <div><img src="../img/IMG_0079.JPEG" alt="" /></div>
+          <div><img src="../img/IMG_0080.JPEG" alt="" /></div>
+          <div><img src="../img/IMG_0082.JPEG" alt="" /></div>
+          <div><img src="../img/IMG_0083.JPEG" alt="" /></div>
+        </div>
+          <div class="information">
+            <p>clay milk bee wax and cannabis oil</p>
+            <p>35 cm</p>
+            
+          </div>
+    </div>
+    
+  </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
